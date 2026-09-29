@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1. Trạng thái được check (checked) */
+        input:checked {
+            accent-color: red;
+        }
+
+        /* 2. Trạng thái nhận tiêu điểm/focus (focus) */
+        input:focus {
+            background-color: lightgreen;
+        }
+
+        /* 3. Trạng thái có thể sử dụng (enabled) */
+        input:enabled {
+            border: 2px solid blue;
+        }
+
+        /* 4. Trạng thái bị vô hiệu hóa (disabled) */
+        input:disabled {
+            background-color: lightgray;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h2>회원가입</h2>
+    
+    <p>
+        이름:
+        <input type="text" placeholder="이름을 입력하세요">
+    </p>
+
+    <p>
+        학번:
+        <input type="text" value="20260001" disabled>
+    </p>
+
+    <p>
+        <input type="checkbox">
+        개인정보 수집에 동의합니다.
+    </p>
+</body>
+</html>
