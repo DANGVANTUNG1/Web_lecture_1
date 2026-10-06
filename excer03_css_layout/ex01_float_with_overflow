@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>수평 정렬 레이아웃 실습</title>
+    <link rel="stylesheet" href="ex01.css">
+</head>
+<body>
+    <div id="container">
+        
+        <header>
+            <h2>DU Web</h2>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">NEWS</a>
+                <a href="#">SHOP</a>
+                <a href="#">LOGIN</a>
+            </nav>
+        </header>
+        <hr>
+
+       
+        <div id="main-content">
+            <section id="news">
+                <h3>오늘의 주요 뉴스</h3>
+                <p>HTML과 CSS를 이용하여 웹 페이지 레이아웃을 만들어 봅시다.</p>
+                <p>이번 실습에서는 float를 이용하여 영역을 수평으로 배치합니다.</p>
+            </section>
+
+            <aside id="popular">
+                <h3>인기 글</h3>
+                <ol>
+                    <li>HTML 기초</li>
+                    <li>CSS 선택자</li>
+                    <li>JavaScript</li>
+                </ol>
+            </aside>
+        </div>
+        <hr style="clear: both;">
+
+<footer>
+    <center>
+        <p>Copyright &copy; DU Web</p>
+    </center>
+</footer>
+    </div>
+</body>
+</html>
