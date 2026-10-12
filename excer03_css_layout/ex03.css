@@ -1,0 +1,170 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Malgun Gothic', Arial, sans-serif;
+    background-color: #f7f5f5;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+header {
+    background-color: #5c1d1d;
+    color: white;
+}
+
+.header-title {
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.header-title h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.header-title p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-top: 1px solid #7c3131;
+}
+
+.main-nav li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #7c3131;
+}
+
+.main-nav li:last-child {
+    border-right: none;
+}
+
+.main-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    background-color: #4a1515;
+}
+
+
+.content {
+    display: flex;
+    background-color: #faf5f5; 
+}
+
+
+.col-profile {
+    width: 25%;
+    padding: 30px 20px;
+    background-color: #f8e8e8; 
+    box-sizing: border-box;
+}
+
+.col-profile h2 {
+    color: #5c1d1d;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.col-profile p {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.col-projects {
+    width: 50%;
+    padding: 30px 25px;
+    background-color: #ffffff; 
+    box-sizing: border-box;
+}
+
+.col-projects h2 {
+    color: #5c1d1d;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.project-box {
+    border: 1px solid #dcb5b5; 
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.project-box h3 {
+    margin: 0 0 8px 0;
+    font-size: 15px;
+    color: #000;
+}
+
+.project-box p {
+    margin: 0;
+    font-size: 13px;
+    color: #444;
+}
+
+
+.col-skills {
+    width: 25%;
+    padding: 30px 20px;
+    background-color: #faf5f5;
+    box-sizing: border-box;
+}
+
+.col-skills h2 {
+    color: #5c1d1d;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.col-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.col-skills li {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background-color: #3c1212; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0;
+}
